@@ -206,6 +206,7 @@ export default function App() {
                       ))}
                     </ul>
                   )}
+                  {e.stack && <p className="env">{e.stack}</p>}
                 </div>
               </li>
             ))}
@@ -260,6 +261,7 @@ export default function App() {
                         {t.code}
                       </a>
                     )}
+                    {!p.repo && !p.demo && <span className="soon">{t.soon}</span>}
                     {p.demo && (
                       <a href={p.demo} target="_blank" rel="noreferrer">
                         {t.demo}

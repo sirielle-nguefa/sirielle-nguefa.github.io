@@ -531,3 +531,14 @@ h2 {
     transition: none !important;
   }
 }
+
+.env {
+  margin: 14px 0 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+.soon {
+  color: var(--muted);
+  font-weight: 500;
+  font-size: 15px;
+}
