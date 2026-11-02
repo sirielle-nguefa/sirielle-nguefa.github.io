@@ -8,7 +8,7 @@ export const site = {
   email: 'siriellen0@gmail.com',
   github: 'https://github.com/sirielle-nguefa',
   // TODO : colle l'adresse exacte de ton profil LinkedIn
-  linkedin: 'https://www.linkedin.com/in/VOTRE-PROFIL',
+  linkedin: 'https://www.linkedin.com/in/sirielle-pontue-nguefa-ngouowoui-488511318',
 }
 
 export const ui = {
